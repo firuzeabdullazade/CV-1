@@ -1,0 +1,207 @@
+.cv {
+    border:1px solid black;
+    width: 600px;
+    height: 820px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.first {
+    border: 1px solid black;
+    width: 190px;
+    background-color: rgba(4, 0, 22, 0.833);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+    padding-right: 10px;
+    color: white;
+}
+.second {
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 40px;
+    padding-right: 15px;
+    color: rgba(4, 0, 22, 0.833);
+}
+img {
+    border: 0.5px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 13px;
+}
+.contact,
+.education,
+.language {
+    padding-left: 15px;
+}
+h3,
+.head {
+    font-family: 'Golos Text', sans-serif;
+}
+h5,
+.experience-1,
+.html,
+.css,
+.scss {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 10px;
+}
+.experience-1 {
+    display: flex;
+    flex-direction: row;
+}
+.d-11,
+.d-12,
+.d-13,
+.d-21,
+.d-22,
+.d-23,
+.d-24 {
+   border: 1px solid white;
+   border-radius: 50%;
+   width: 5px;
+   height: 5px;
+   background-color: white;
+   margin-right: 8px;
+}
+.english,
+.turkish {
+    display: flex;
+    flex-direction: row;   
+}
+.english-2,
+.turkish-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+.d-14{
+   border: 1px solid white;
+   border-radius: 50%;
+   width: 5px;
+   height: 5px;
+   background-color: rgba(53, 48, 73, 0.833);
+}
+.right {
+    margin-left: 20px;
+}
+.p-11,
+.p-12,
+.p-13,
+.p-21,
+.p-22,
+.p-31,
+.p-32 {
+   border: 1px solid rgba(4, 0, 22, 0.833);
+   border-radius: 50%;
+   width: 5px;
+   height: 5px;
+   background-color:rgba(4, 0, 22, 0.833) ;
+   margin-right: 8px;
+}
+.p-14,
+.p-23,
+.p-24,
+.p-33,
+.p-34 {
+   border: 1px solid rgba(53, 48, 73, 0.833);
+   border-radius: 50%;
+   width: 5px;
+   height: 5px;
+   background-color: rgba(72, 68, 91, 0.833);  
+}
+.html,
+.css,
+.scss {
+    display: flex;
+    flex-direction: row;  
+}
+.html-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+.css-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+}
+.p-24,
+.p-34 {
+    margin-left: 8px;
+}
+.scss-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 34px;
+}
+.name,
+.surname {
+    font-size: 40px;
+}
+.work {
+    font-size: 15px;
+}
+.experience-1 {
+    display: flex;
+    flex-direction:column;
+}
+.top,
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+.right-1 {
+    margin-left: 40px;
+}
+.right-2 {
+    margin-left: 28px;
+}
+.top {
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.line-1,
+.line-2,
+.line-3 {
+    border: 1px solid white;
+    width: 30px;
+}
+.line-4,
+.line-5,
+.line-6 {
+    border: 1px solid rgba(4, 0, 22, 0.833);
+    width: 30px;
+}
+.line-6 {
+    margin-bottom: 15px;
+}
+.turkish {
+    margin-top: 10px;
+}
+.css,
+.scss {
+    margin-top: 10px;
+}
